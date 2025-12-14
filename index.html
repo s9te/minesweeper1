@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper - Expert</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/bomb.png">
+</head>
+<body>
+    <div class="minesweeper-window">
+        <div class="title-bar">
+            <div class="title-bar-text">Minesweeper</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+
+        <div class="minesweeper-content">
+            <div class="header">
+                <div id="mines-count" class="counter">000</div>
+                <button id="reset-button" class="reset-button">
+                    <img id="face-icon" src="images/face_smile.png" alt="Reset">
+                </button>
+                <div id="timer-count" class="counter">000</div>
+            </div>
+
+            <div id="board" class="board">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
